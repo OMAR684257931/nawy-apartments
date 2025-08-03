@@ -1,0 +1,188 @@
+# ===========================================
+# Dependencies
+# ===========================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ===========================================
+# Production builds
+# ===========================================
+dist/
+build/
+.next/
+out/
+*.tsbuildinfo
+
+# ===========================================
+# Environment variables
+# ===========================================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env*.local
+
+# ===========================================
+# IDE and Editor files
+# ===========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ===========================================
+# Operating System files
+# ===========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ===========================================
+# Logs and Runtime data
+# ===========================================
+logs
+*.log
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# ===========================================
+# Testing and Coverage
+# ===========================================
+coverage/
+*.lcov
+.nyc_output
+junit.xml
+
+# ===========================================
+# Cache directories
+# ===========================================
+.npm
+.eslintcache
+.cache
+.parcel-cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+.node_repl_history
+
+# ===========================================
+# Package manager files
+# ===========================================
+*.tgz
+.yarn-integrity
+yarn.lock
+package-lock.json
+pnpm-lock.yaml
+
+# ===========================================
+# Framework specific
+# ===========================================
+# Next.js
+.next
+out/
+
+# Nuxt.js
+.nuxt
+dist
+
+# Gatsby
+.cache/
+public
+
+# Storybook
+.out
+.storybook-out
+
+# ===========================================
+# Database and Prisma
+# ===========================================
+# Prisma migrations (keep schema, ignore migrations)
+prisma/migrations/
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# ===========================================
+# Docker
+# ===========================================
+.dockerignore
+docker-compose.override.yml
+
+# ===========================================
+# File uploads and media
+# ===========================================
+uploads/
+public/uploads/
+media/
+
+# ===========================================
+# Temporary and backup files
+# ===========================================
+tmp/
+temp/
+*.tmp
+*.temp
+*.bak
+*.backup
+*~
+
+# ===========================================
+# TypeScript
+# ===========================================
+*.tsbuildinfo
+
+# ===========================================
+# Security and secrets
+# ===========================================
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+
+# ===========================================
+# OS generated files
+# ===========================================
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# ===========================================
+# Project specific
+# ===========================================
+# Ignore uploaded images but keep the uploads directory structure
+uploads/images-*
+!uploads/
+!uploads/.gitkeep
+
+# ===========================================
+# Development tools
+# ===========================================
+.eslintcache
+.stylelintcache 
